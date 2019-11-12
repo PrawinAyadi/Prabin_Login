@@ -6,6 +6,7 @@ import androidx.viewpager.widget.ViewPager;
 import android.os.Bundle;
 import com.example.prabin_login.adapters.ViewPagerAdapter;
 import com.example.prabin_login.fragments.LoginFragment;
+import com.example.prabin_login.fragments.SignupFragment;
 import com.google.android.material.tabs.TabLayout;
 
 public class MainActivity extends AppCompatActivity {
@@ -21,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
         tabLayout=findViewById(R.id.tabID);
 
         ViewPagerAdapter viewPagerAdapter= new ViewPagerAdapter((getSupportFragmentManager()));
-        viewPagerAdapter.addFragment(new LoginFragment(),"Login");
-        viewPagerAdapter.addFragment(new SignupFragment(),"Signup");
+        viewPagerAdapter.addFragment(new LoginFragment(),"LOGIN");
+        viewPagerAdapter.addFragment(new SignupFragment(),"SIGNUP");
         viewPager.setAdapter(viewPagerAdapter);
         tabLayout.setupWithViewPager(viewPager);
 

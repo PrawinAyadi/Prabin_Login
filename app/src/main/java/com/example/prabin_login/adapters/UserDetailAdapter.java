@@ -16,7 +16,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.prabin_login.DetailsActivity;
 import com.example.prabin_login.R;
 import com.example.prabin_login.models.UserDetail;
-import com.example.prabin_login.recycler.RecyclerFragment;
+import com.example.prabin_login.ui.recycler.RecyclerFragment;
 
 import java.util.List;
 
@@ -30,8 +30,7 @@ public class UserDetailAdapter extends RecyclerView.Adapter<UserDetailAdapter.Us
         this.userDetailList = userDetailList;
     }
 
-    public UserDetailAdapter(com.example.prabin_login.ui.recycler.RecyclerFragment recyclerFragment, List<UserDetail> userList) {
-    }
+    
 
     @NonNull
     @Override

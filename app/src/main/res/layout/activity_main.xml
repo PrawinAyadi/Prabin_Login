@@ -11,9 +11,9 @@
         android:id="@+id/tabID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
+        android:background="#FFFF00"
         app:tabIndicatorHeight="2dp"
-        app:tabTextColor="@color/colorPrimaryDark"
+        app:tabTextColor="#FF0000"
 
         />
 

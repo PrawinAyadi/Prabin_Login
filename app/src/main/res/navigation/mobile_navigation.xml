@@ -6,38 +6,19 @@
     app:startDestination="@+id/nav_home">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.example.prabin_login.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/nav_add"
+        android:name="com.example.prabin_login.ui.add.AddFragment"
+        android:label="Addition"
+        tools:layout="@layout/fragment_add" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.prabin_login.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
-
+        android:id="@+id/nav_area"
+        android:name="com.example.prabin_login.ui.area.AreaFragment"
+        android:label="Area"
+        tools:layout="@layout/fragment_area" />
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.prabin_login.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
-
-    <fragment
-        android:id="@+id/nav_tools"
-        android:name="com.example.prabin_login.ui.tools.ToolsFragment"
-        android:label="@string/menu_tools"
-        tools:layout="@layout/fragment_tools" />
-
-    <fragment
-        android:id="@+id/nav_share"
-        android:name="com.example.prabin_login.ui.share.ShareFragment"
-        android:label="@string/menu_share"
-        tools:layout="@layout/fragment_share" />
-
-    <fragment
-        android:id="@+id/nav_send"
-        android:name="com.example.prabin_login.ui.send.SendFragment"
-        android:label="@string/menu_send"
-        tools:layout="@layout/fragment_send" />
+        android:id="@+id/nav_recycler"
+        android:name="com.example.prabin_login.ui.recycler.RecyclerFragment"
+        android:label="User"
+        tools:layout="@layout/fragment_recycler" />
 </navigation>

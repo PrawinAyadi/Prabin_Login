@@ -14,6 +14,8 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.prabin_login.CheckLogin;
+import com.example.prabin_login.Navigation_Activity;
 import com.example.prabin_login.R;
 
 import static android.provider.AlarmClock.EXTRA_MESSAGE;
@@ -71,7 +73,7 @@ public class LoginFragment extends Fragment {
 
                         /// new activcity
 
-                        Intent intent = new Intent(getActivity(), NavigationActivity.class);
+                        Intent intent = new Intent(getActivity(), Navigation_Activity.class);
                         intent.putExtra(EXTRA_MESSAGE, Username);
                         startActivity(intent);
 
