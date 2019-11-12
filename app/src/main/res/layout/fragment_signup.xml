@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".framents.SignupFragment">
+    tools:context="com.example.prabin_login.fragments.SignupFragment">
 
     <EditText
         android:id="@+id/etrUser"
